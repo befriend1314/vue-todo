@@ -8,7 +8,7 @@
 export default {
     data() {
         return {
-            text: 'abc'
+            text: 'abc999999'
         }
     }
 }
