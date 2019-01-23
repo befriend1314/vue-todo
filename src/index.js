@@ -1,9 +1,7 @@
 import Vue from 'vue'
 import App from './app.vue'
 
-import './assets/images/star.png'
-import './assets/styles/test.css'
-import './assets/styles/test-less.less'
+import './assets/styles/global.less'
 
 const root = document.createElement('div')
 
