@@ -34,11 +34,11 @@ export default {
             }
         }           
         label{
+            display: block;
+            margin-left: 45px;
+            padding: 15px 60px 15px 15px;
             white-space: pre-line;
             word-break: break-all;
-            padding: 15px 60px 15px 15px;
-            margin-left: 45px;
-            display: block;
             line-height: 1.2;
             transition: color 0.4s;
         }
@@ -55,9 +55,9 @@ export default {
         top: 0;
         bottom: 0;
         margin: auto 0;
-        text-align: center;
         width: 50px;
         height: 30px;
+        text-align: center;
         border: none;
         appearance: none;
         outline: none;
@@ -74,8 +74,8 @@ export default {
         position: absolute;
         top: 0;
         right: 0;
-        width: 40px;
         margin: auto 0 11px;
+        width: 40px;
         font-size: 30px;
         color: #cc9a9a;
         transition: color .2s ease-out;

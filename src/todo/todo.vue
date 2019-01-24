@@ -51,11 +51,11 @@ export default {
 </script>
 
 <style lang="less" scoped>
-    .real-app{
-        width: 600px;
-        margin: 0 auto;
-        box-shadow: 0 0 5px #666;
-    }
+.real-app{
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px #666;
+}
 .add-input{
     position: relative;
     margin: 0;

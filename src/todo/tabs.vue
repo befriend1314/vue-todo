@@ -43,14 +43,13 @@ export default {
 
 <style lang="less" scoped>
     .helper{
-        font-weight: 100;
         display: flex;
         justify-content: space-between;
         padding: 5px 0;
+        font-weight: 100;
+        font-size: 14px;
         line-height: 30px;
         background-color: #ffffff;
-        font-size: 14px;
-        font-smoothing: antialiased;
     }
     .left, .clear, .tabs{
         padding: 0 10px;
