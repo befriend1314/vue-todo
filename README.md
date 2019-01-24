@@ -2,6 +2,8 @@
 
 做一个简单的vue todo 
 
+在线预览：[https://befriend1314.github.io/vue-todo/](https://befriend1314.github.io/vue-todo/)
+
 后续补充了：
 
 1. css 代码拆分单独打包
