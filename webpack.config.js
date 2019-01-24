@@ -73,6 +73,10 @@ if( isDev ) {
     )
 
 } else {
+    config.entry = {
+        app: path.join(__dirname, 'src/index.js'),
+        vendor: ['vue']
+    }
     config.output.filename = '[name].[chunkhash:8].js'
     config.module.rules.push({
         test: /\.less$/,
@@ -89,8 +93,19 @@ if( isDev ) {
         ]
     })
     config.plugins.push(
-        new miniCssExtractPlugin({filename: 'styles.[contenthash:8].css'})
+        new miniCssExtractPlugin({filename: 'styles.[contenthash:8].css'}),
     )
+    config.optimization = {
+        splitChunks: {
+            cacheGroups: {
+                commons: {
+                    name: "vendor",
+                    chunks: "initial",
+                    minChunks: 2
+                }
+            }
+        }
+    }
 }
 
 module.exports= config
